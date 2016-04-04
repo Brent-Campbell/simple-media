@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Media Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Simple Media Page</h1>
+    </header>
+    <main>
+        <div class="video">
+            <h2>My buddies atv wipeout</h2>
+            <video controls="controls" poster="media/atv-jump.jpg">
+                <source src="media/Jamie-wipeout.mp4" type="video/mp4">
+                <source src="media/Jamie-wipeout.ogv" type="video/ogg">
+            </video>
+        </div>
+        <br>
+        <div class="audio">
+            <h2>Audio File</h2>
+            <audio controls="controls">
+                <source src="media/audio.mp3" type="audio/mp3">
+                <source src="media/audio.ogg" type="audio/ogg">
+                <a href="media/audio.mp3">Download the audio file</a> (MP3)
+            </audio>
+        </div>
+        <br>
+        <div class="youtube">
+            <h2>YouTube Video</h2>
+            <iframe src="https://www.youtube.com/embed/PqFFQB64JS8" width="640" height="360">
+                <a href="http://www.youtube.com/embed/PqFFQB64JS8">YouTube Video</a>
+            </iframe>
+        </div>
+        <div class="polaroid">
+            <h2>Polaroid image</h2>
+            <figure>
+                <img src="media/Caesars-Palace.jpg" width="390" height="390" alt="Caesars Palace Casino">
+                <figcaption class="transform">Caesers Palace Casino</figcaption>
+            </figure>
+        </div>
+    </main>
+    <br>
+    <footer>
+        Copyright&copy; Brent Campbell 2016
+    </footer>
+</body>
+
+</html>

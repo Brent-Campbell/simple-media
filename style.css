@@ -11,3 +11,60 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+h1 {
+            text-align: center;
+        }
+        
+        figure {
+            margin: auto;
+            width: 390px;
+            padding: 15px;
+            background-color: #FFF;
+            border: 1px solid #CCC;
+            box-shadow: 5px 5px 5px #828282;
+            transform: rotate(5deg);
+        }
+        
+        figcaption {
+            text-align: center;
+            font-size: 1em;
+            font-style: italic;
+        }
+        
+        .video {
+            float: left;
+            clear: left;
+            width: 50%;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .audio {
+            float: right;
+            clear: right;
+            width: 50%;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .youtube {
+            float: left;
+            clear: left;
+            width: 50%;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 250px;
+        }
+        
+        .polaroid {
+            float: right;
+            clear: right;
+            width: 50%;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 250px;
+        }
